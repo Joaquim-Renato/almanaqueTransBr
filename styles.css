@@ -11,11 +11,24 @@ body {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     min-height: 100vh; /* Preenche a altura total da viewport */
-    background-image: linear-gradient(to bottom, #FF00DD, #FFFFFF, #007FFF );
+    background-image: linear-gradient(to right, #FFC0CB, #FFFFFF, #007FFF);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
     font-size: 16px;
   }
 
-   
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0%  
+   50%;
+    }
+  }
 
 
   h1 {
@@ -44,7 +57,7 @@ section input {
 }
   
   header {
-    background-color: #FFC0CB; /* Rosa */
+    background-image: linear-gradient(#FFC0CB, );
     text-align: center;
     padding: 20px;
   }
@@ -105,10 +118,10 @@ section input {
 
   
   footer {
-    background-color: #FFC0CB; /* Cor de fundo do rodapé */
+    background-image: linear-gradient(to bottom, #86b6e6, #FFFFFF,  #FFC0CB);
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 20px; /* Espaçamento interno */
+    padding: 10px; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
