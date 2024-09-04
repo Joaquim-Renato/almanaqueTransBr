@@ -11,7 +11,7 @@ body {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     min-height: 100vh; /* Preenche a altura total da viewport */
-    background-image: linear-gradient(to right, #FFC0CB, #FFFFFF, #007FFF);
+    background-image: linear-gradient(45deg, #FFC0CB, #ffb6c1, #FFFFFF, #E6F0FF, #007FFF);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     font-size: 16px;
@@ -118,7 +118,8 @@ section input {
 
   
   footer {
-    background-image: linear-gradient(to bottom, #86b6e6, #FFFFFF,  #FFC0CB);
+    background-image: linear-gradient(to right, #FFC0CB, #ffb6c1, #FFFFFF, #E6F0FF, #007FFF);
+
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 10px; /* Espaçamento interno */
