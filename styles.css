@@ -3,16 +3,19 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    justify-content: center; /* Centraliza os itens verticalmente */
+    margin: 0;
+    padding: 0;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    height: 100vh; /* Preenche a altura total da viewport */
-    margin: 0;
-    padding: 0;
-    background-color: #fff; /* Branco */
+    min-height: 100vh; /* Preenche a altura total da viewport */
+    background-image: linear-gradient(to bottom, #FF00DD, #FFFFFF, #007FFF );
+    font-size: 16px;
   }
+
+   
 
 
   h1 {
@@ -29,6 +32,7 @@ section {
 }
 /* Estiliza os inputs dentro das seções */
 section input {
+
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
@@ -99,8 +103,6 @@ section input {
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
-
-  
   
   footer {
     background-color: #FFC0CB; /* Cor de fundo do rodapé */
