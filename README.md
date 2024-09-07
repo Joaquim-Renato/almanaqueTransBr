@@ -13,7 +13,8 @@ O Almanaque Transgender BR é um buscador simples e intuitivo criado para auxili
 2. **Explore os Resultados:** Os resultados da pesquisa serão exibidos abaixo do campo de pesquisa. Clique nos títulos para acessar mais informações (se disponíveis).
 
 ## Estrutura do Projeto
-├── index.html
+├── index.html <br>
+
 ├── styles.css
 ├── app.js
 └── dados.js
