@@ -2,12 +2,8 @@
 
 ## Descrição
 O Almanaque Transgender BR é um buscador simples e intuitivo criado para auxiliar na busca de informações relevantes para a comunidade transgender. 
-├── index.html
-├── styles.css├── index.html
-├── styles.css
-├── app.js
-└── dados.js├── app.js
-└── dados.js## Tecnologias Utilizadas
+
+## Tecnologias Utilizadas
 * **HTML:** Estrutura da página
 * **CSS:** Estilização da página
 * **JavaScript:** Lógica da aplicação, incluindo a funcionalidade de pesquisa
